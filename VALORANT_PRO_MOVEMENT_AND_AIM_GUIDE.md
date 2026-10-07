@@ -115,7 +115,7 @@ A high-signal technical reference for movement mechanics, gunfight hygiene, cros
 * **NVIDIA Reflex: On + Boost:** Prevents GPU power-state downclocking inside smokes and utility.
 * **Sensitivity Baseline:** 200–260 eDPI sweet spot. Values >320 eDPI introduce micro-jitter under adrenaline.
 * **Mouse DPI (1600 DPI):** Reduces sensor reporting latency by ~1.0–1.5 ms over 400 DPI without firmware smoothing.
-* **Rapid Trigger (0.1 mm):** Resets switch travel immediately upon finger lift, removing mechanical debounce delay for deadzone snaps.
+* **Magnetic Keyboard Profile:** Actuation **0.2 mm** (`WASD` & `Ctrl`), Continuous Rapid Trigger **0.1 mm** (0.1 mm deadzone), Snap Tap / SOCD enabled strictly on **`A` & `D`** (last-input priority for instant lateral direction-swap deadzones).
 * **Enable HRTF: ON:** Generates 3D binaural spatial audio for precise vertical and front/back footstep localization (disable Windows virtual surround sound).
 
 ---
@@ -474,8 +474,35 @@ $$\text{eDPI} = \text{Mouse DPI} \times \text{In-Game Sensitivity}$$
 
 ### Hardware Optimizations
 * **Mouse DPI (1600 DPI):** Reduces sensor reporting latency by ~1.0–1.5 ms compared to 400 DPI by generating more displacement counts per millimeter, without triggering firmware smoothing (>3200 DPI).
-* **Rapid Trigger (Hall Effect Keyboards):** Switches reset within **0.1 mm** of upward key travel, eliminating the mechanical debounce delay (~1.5–2.0 mm) of traditional mechanical switches. Guarantees deadzone input registration matches physical finger lift instantaneously.
 * **Mouse Grips:** Claw grip provides the optimal balance of palm stability for angle holding and finger mobility for micro-corrections.
+
+---
+
+### Magnetic Keyboard Configuration (Hall Effect / Rapid Trigger / Snap Tap)
+
+Magnetic (Hall Effect) keyboards eliminate mechanical switch debounce latency, allowing physical finger movement to map directly to character deceleration.
+
+#### Recommended Profile Settings
+
+| Key | Actuation Point | Rapid Trigger (Press / Release) | Deadzone | Snap Tap / SOCD | Technical Function |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **`A` & `D`** | **0.2 mm** | **0.1 mm / 0.1 mm** (Continuous) | **0.1 mm** | **ON** | Instant lateral actuation; lifts cut engine velocity immediately; Snap Tap eliminates overlap delay during direction-swap deadzones. |
+| **`W` & `S`** | **0.2 mm** | **0.1 mm / 0.1 mm** (Continuous) | **0.1 mm** | **OFF** | High-responsiveness forward/back movement. Snap Tap disabled to prevent accidental momentum overrides during utility deployment or planting. |
+| **`Ctrl` (Crouch)** | **0.2 mm** | **0.1 mm / 0.1 mm** (Continuous) | **0.1 mm** | **OFF** | Hyper-responsive crouch registration and instantaneous release when un-crouching from committed sprays or head-dodges. |
+
+#### Key Mechanics & Diagnostics
+1. **Actuation Point (0.2 mm for WASD & Ctrl):**
+   * Drops switch trigger travel from standard mechanical ~2.0 mm down to 0.2 mm. Inputs register nearly the instant downward force begins.
+   * *Discipline Note:* Ensure finger posture does not lazily rest on keys; 0.2 mm triggers on slight depression, which can cause inadvertent footsteps if careless.
+2. **Continuous Rapid Trigger (0.1 mm Upstroke / Downstroke):**
+   * **Upstroke (0.1 mm):** The switch unregisters after only 0.1 mm of upward travel at any point in the stroke. This shaves ~60–80 ms of switch rebound time off every counter-strafe and deadzone.
+   * **Continuous Mode: ON:** Tracks relative key travel across the entire stroke, meaning rapid-fire direction changes trigger without returning to the top baseline.
+3. **Deadzone Filtering (0.1 mm Top/Bottom):**
+   * Filters out magnetic sensor noise/electrical jitter when switches are fully released or bottomed out against the plate. Prevents phantom input chatter.
+4. **Snap Tap / SOCD Isolation (`A` & `D` ONLY):**
+   * **Why only `A` & `D`:** Lateral movement dictates 100% of rifle gunfights in Valorant. Binding Snap Tap to `A` and `D` prioritizes the most recent input, eliminating the "dead-stop cancel" overlap window when reversing directions during jiggle peeks.
+   * **Why keep `W` & `S` OFF:** Forward/backward movement is not used for counter-strafing. Keeping Snap Tap off on `W`/`S` preserves natural momentum control and avoids accidental cancellations when pressing forward into cover or moving diagonally.
+   * **The "Double-Release" Habit:** Because Snap Tap prioritizes the last pressed key, releasing `D` while still holding `A` resumes movement left (`A`). To come to a complete zero-velocity dead stop, you must physically release both keys.
 
 ---
 
