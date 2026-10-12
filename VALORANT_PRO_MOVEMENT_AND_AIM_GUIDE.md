@@ -2,134 +2,30 @@
 
 A high-signal technical reference for movement mechanics, gunfight hygiene, crosshair geometry, hardware settings, and training routines.
 
+> ⚡ **Quick-Reference Cheat Sheet:** For 30-second buy-phase triage and mid-game emergency resets, jump to **[CHEATSHEET.md](CHEATSHEET.md)**.  
+> 🎯 **Custom Crosshair Compendium:** For Beast's Double Edge profiles, visual previews, and import codes, see **[CROSSHAIRS.md](CROSSHAIRS.md)**.
+
 ---
 
 ## Table of Contents
-* [⚡ Quick-Reference Cheat Sheet (Pre-Match & Emergency Mid-Game Reset)](#-quick-reference-cheat-sheet-pre-match--emergency-mid-game-reset)
-1. [Engine Physics & Fundamental Velocity Mechanics](#1-engine-physics--fundamental-velocity-mechanics)
-2. [Deadzoning vs. Counter-Strafing](#2-deadzoning-vs-counter-strafing)
-3. [The Pro Peeking Catalog](#3-the-pro-peeking-catalog)
-4. [Perspective Advantage & Geometry](#4-perspective-advantage--geometry)
-5. [Crosshair Placement & Pre-Aim Discipline](#5-crosshair-placement--pre-aim-discipline)
-6. [Gunfight Hygiene & Firing Discipline](#6-gunfight-hygiene--firing-discipline)
-7. [Micro-Adjustments & Biomechanics](#7-micro-adjustments--biomechanics)
-8. [Crouching: Pro Rules vs. Low-ELO Suicides](#8-crouching-pro-rules-vs-low-elo-suicides)
-9. [Advanced Elevation & Movement Tech](#9-advanced-elevation--movement-tech)
-10. [Hardware, Sensitivity & In-Game Settings](#10-hardware-sensitivity--in-game-settings)
-11. [Daily Pro Warmup & Aim Training Regimen](#11-daily-pro-warmup--aim-training-regimen)
-12. [Common Bad Habits vs. Pro Habits Matrix](#12-common-bad-habits-vs-pro-habits-matrix)
+* ⚡ **[Quick-Reference Cheat Sheet](CHEATSHEET.md)**
+* 🎯 **[Beast's Crosshair Compendium](CROSSHAIRS.md)**
+1. [Engine Physics & Fundamental Velocity Mechanics](#engine-physics)
+2. [Deadzoning vs. Counter-Strafing](#deadzoning-vs-counter-strafing)
+3. [The Pro Peeking Catalog](#pro-peeking-catalog)
+4. [Perspective Advantage & Geometry](#perspective-advantage)
+5. [Crosshair Placement & Pre-Aim Discipline](#crosshair-placement)
+6. [Gunfight Hygiene & Firing Discipline](#gunfight-hygiene)
+7. [Micro-Adjustments & Biomechanics](#micro-adjustments-biomechanics)
+8. [Crouching: Pro Rules vs. Low-ELO Suicides](#crouching-rules)
+9. [Advanced Elevation & Movement Tech](#advanced-elevation-tech)
+10. [Hardware, Sensitivity & In-Game Settings](#hardware-settings)
+11. [Daily Pro Warmup & Aim Training Regimen](#warmup-regimen)
+12. [Common Bad Habits vs. Pro Habits Matrix](#habits-matrix)
 
 ---
 
-## ⚡ Quick-Reference Cheat Sheet (Pre-Match & Emergency Mid-Game Reset)
-
-> **Mid-Game Triage:** Use this section during buy phase or timeouts to instantly diagnose performance issues and reset mechanics.
-
----
-
-### 🚨 Emergency Whiff & Tilt Triage (10-Second Mid-Match Reset)
-* **Shooting Error Graph showing Blue bars?** $\rightarrow$ You are clicking before decelerating below `1.62 m/s`. Delay trigger pull by ~50 ms after key release.
-* **Over-flicking or jittery micro-aim?** $\rightarrow$ Loosen mouse grip tension to ~3/10 pressure. Clenched hands lock carpal tendons.
-* **Stiff wrist when peeking angles?** $\rightarrow$ Lift and re-center mouse on the pad before swinging. A cocked wrist has zero micro-adjustment range.
-* **Flinching / whiffing opening shots?** $\rightarrow$ Visually confirm the enemy head before pulling the trigger. Never shoot on reaction to raw movement or silhouettes.
-* **Spraying and losing duels?** $\rightarrow$ Enforce the 2-bullet cutoff. If bullets 1–2 miss, strafe 2 paces laterally (375 ms recoil reset) and fire a fresh burst.
-* **Panic crouching into deaths?** $\rightarrow$ Lift your pinky off `Ctrl` or unbind crouch for 3 rounds. Low-ELO opponents aim chest-level; crouching walks your head into their bullets.
-
----
-
-### 🏃 Movement & Deadzoning Cues
-* **Never hold `W` into an angle:** Always peek with pure `A` or `D`. Forward movement flattens lateral speed on the enemy screen, making you trivial to track.
-* **Peek from Maximum Distance from Wall:** Always back up as far as terrain allows before swinging. Distance grants **Perspective Advantage** (you see their body first) and ensures **Peeker's Advantage (30–50 ms)** is not destroyed by premature shoulder exposure. Hugging corners gives the enemy free vision.
-* **Shift-walk vs. Crouch-walk:**
-  * *Shift-walking (`3.0 m/s`):* Incurs full movement inaccuracy bloom. Never shoot while Shift-walking.
-  * *Crouch-walking (`1.5 m/s`):* Drops below the 1.62 m/s threshold $\rightarrow$ **100% standing accuracy** while moving.
-* **Ropes & Ascenders:** Cancel horizontal momentum $\rightarrow$ hold `Shift` + press `F` to latch silently. Never duel on ropes (rifles = 1.3 base spread; shotguns = 3.0 running spread). Press `Space` at top for bhop entry.
-* **Reversal Deadzone:** Moving `A` $\rightarrow$ release `A` and tap `D` $\rightarrow$ fire 1–2 bullets at the apex transition $\rightarrow$ continue moving `D`. Never freeze stationary.
-* **Stutter Deadzone (Same-Direction):** Sprinting `D` $\rightarrow$ tap `A` for 30–50 ms as a brake $\rightarrow$ fire 1–2 bullets $\rightarrow$ resume `D`. Enables unexpected `D -> D -> D` chains.
-* **Anti-Metronome Cadence:** Never oscillate in a predictable left-right bounce. Double-tap in the same direction (`A -> D -> D -> D -> A`) and alternate short micro-strafes (wrist) with wide slides (arm).
-* **Silent Box Mount:** Walk forward into crate + hold `Ctrl` $\rightarrow$ press `Space` $\rightarrow$ release `Ctrl` at jump apex (zero landing noise).
-* **Silent Ledge Drop & Wall Drag:** Tap `Ctrl` right before sliding off ledges (~35–40 cm drop reduction); scrape against angled walls or crates during falls to drag downward speed below audio triggers.
-
-
----
-
-### 👀 Peeking Catalog Cues
-* **Defensive Distance & Camera Alignment:** Never hug corners when holding. The first-person camera is centered between the eyes, so hugging geometry exposes your outer shoulder and gun barrel to wide swingers before you gain vision.
-* **Diagonal Penalty (`W+D` / `W+A`):** Approaching corners diagonally collapses lateral angular speed across the defender's screen, making your model nearly stationary to track. Always approach perpendicular and swing pure `A`/`D`.
-* **Slicing the Pie with Through-Wall Pre-Aim:** Clear 5°–10° concentric wedges from max distance. Pre-align crosshair through the wall onto the head coordinate *before* stepping out. When line of sight opens, your crosshair is already on their head so you don't adjust aim, you just click. Keep outer geometry masking secondary angles to isolate duels into sequential 1v1s.
-* **Shoulder Peek (<0.22s):** Look 45°–90° into the adjacent wall $\rightarrow$ tap `A`/`D` for 40–70 ms $\rightarrow$ snap back. Exposes only the outer arm hitbox with zero footstep audio; baits sniper shots.
-* **Pre-Fire Jiggle:** Pre-aim head coordinate through wall $\rightarrow$ micro-strafe out $\rightarrow$ 1–2 shot apex burst $\rightarrow$ snap into cover. Never use identical timing twice.
-* **Jump Peek (Parabolic S-Curve):** Knife out (`6.75 m/s`) $\rightarrow$ run parallel with `W` $\rightarrow$ jump and swing `D` $\rightarrow$ whip back with `S + A` to land behind cover with zero landing audio. Baits the Operator's 1.50s bolt rechamber.
-* **Ferrari Swing:** Pure `A` or `D` at 5.40 m/s perpendicular to enemy sightline. Maximizes peeker's advantage (30–50 ms client-server lead).
-* **Wide Swing:** Sprint 1.5–2 character widths past the standard pre-aim point into open space. Punishes defenders holding tight crosshairs.
-* **Poppin Swing:** Wide running swing $\rightarrow$ sudden crouch commit. Breaks enemy aim across both horizontal tracking and vertical recoil axes.
-* **Depth-Shift & Compound 2-Axis Re-Peek:** Never re-peek from the exact same physical coordinates. Step 1–2 paces closer or farther behind cover (stepping back widens angle; stepping closer spikes angular speed) AND drop into a crouch to break both horizontal and vertical pre-aim simultaneously.
-* **Anti-Conditioning & Off-Angle Unpredictability:** Never peek the same lane at the same round timer twice (e.g. repeated Mid peeks invite pre-fires and double-peeks). Play unexpected off-angles in open space to break enemy pre-aim, and relocate immediately after securing a duel.
-
----
-
-### 🎯 Aim, Crosshair Placement & Weapon Cues
-* **Traversing Space Discipline:** Never allow crosshair to sag to chest/floor level during rotations; keep reticle locked to corner geometry at head height 100% of the time, anticipating instant contact.
-* **Distance Ladder:**
-  * *0–10m:* 2-bullet burst into crouch pull-down (Vandal) or full spray commit (Phantom).
-  * *10–25m:* Strict 2-bullet burst $\rightarrow$ 2-step strafe $\rightarrow$ deadzone burst.
-  * *25m+:* 2-bullet burst or deadzone 1-tap only. Zero spraying.
-* **Recoil Cooldown Sync:** Vandal reset = 375 ms; Phantom reset = 350 ms. A standard 2-step lateral strafe takes ~375 ms, naturally absorbing the weapon cooldown.
-* **4-Bullet Cutoff:** Vandal bullets 5+ have randomized horizontal spread. If the first 3 bullets miss, disengage and strafe. Continuing to spray has a <10% hit rate.
-* **Weapon Nuances:**
-  * *Sheriff & Guardian:* Lethal 1-tap at deadzone apex; enforce single-shot recoil reset before firing again.
-  * *Phantom vs. Vandal:* Phantom allows 5–6 round sprays out to <15m (never spray rifles past bullet 4 at >12m); suppressed barrel emits **zero bullet tracers**, allowing safe smoke spamming.
-* **4-Step WASD Aim Sequence (Zero-Adjustment Shooting):** (1) Pre-aim through wall $\rightarrow$ (2) Sweep angle with pure `A`/`D` (mouse neutral) $\rightarrow$ (3) Micro-step `A`/`D` onto skull if off by 10–30px $\rightarrow$ (4) Apex counter-tap & fire. Axiom: *Never flick to an angle you can step into.*
-* **Under-Aiming (85%–90% Flick):** Flick slightly short, then micro-snap forward. Over-flicking forces antagonistic muscles to brake and reverse, costing 100–150 ms.
-* **Keyboard Micro-Adjustments (Anti-Overflick):** When an enemy is slightly off your reticle (10–30px), **micro-adjust with `A`/`D` instead of flicking with the mouse**. Mouse micro-flicks under adrenaline cause over-flicking and muscle tremor; tapping your movement key walks your crosshair onto their skull with 100% digital precision.
-* **The "Wallhack Mindset" (100% Anticipation):** Expect an enemy head at the exact millimeter of every corner; anticipating the target drops reaction time from ~250 ms to ~160 ms and eliminates startle flinches.
-* **Angle Holding Depth:**
-  * *Default Mid-Hold (60–120px / ~1–1.5 character widths):* **Universal Pro Default.** Catches wide swings on reaction timing; requires only a sub-15px wrist flick for jiggles.
-  * *Tight Hold (<40px):* Operator/Marshal or confirmed shift-walkers only.
-  * *Extra-Wide Hold (150–250px / 2–3 character widths):* High mobility agents (Neon, Jett), anti-eco rounds, or reading **ego-swings** (1vX clutches, enemies on hot streaks).
-* **Map Geometry Rulers:** Top edge of single Radianite crate, seam between stacked crates, and horizontal wall trim / architectural decals = head height. Align with teammate heads during buy phase. On **ramps and inclines**, pre-aim the exact lip where the head first breaches rather than holding parallel to the slope.
-* **Enemy Pattern Recognition (Exploiting Habits):**
-  * *Push Sequencing:* Track if the enemy spams one site or alternates predictably (`A -> B -> A`). Pre-rotate or stack crossfires early against predictable sequences.
-  * *The Dedicated Lurker:* If an enemy consistently lurks late, **never rotate on first contact**. Leave a "lurk-catcher" holding the flank off-angle, or collapse on and hunt the isolated lurker early for a free 5v4 man advantage.
-  * *Pacing & Cadence Exploitation:* Against Fast-Rush teams, hold Extra-Wide (150–250px), delay with stall utility, and refuse close 50/50s. Against Slow-Default teams, hold standard Mid-Holds, hoard defensive utility until 0:40, and punish predictable late-round executes.
-* **Economy Reads & Weapon Matchups:**
-  * *Enemy Eco / Save (Low Money):* **Never hold close angles (<10m).** Back up to long ranges (>20m) to neutralize cheap shotguns (Judge/Shorty) and Classic right-clicks. Exploit **Outlaw (140 body damage)** for instant 1-shot torso kills against Light Shields (125 HP). Hold Extra-Wide for swarming pistol rushes.
-  * *Enemy Rich / Surplus (4,700+ Credits):* **Never dry-peek long sightlines with rifles.** Assume an Operator is holding. Enforce Jump Peeks to bait the 1.50s bolt rechamber, flush with flashes/smokes, or coordinate simultaneous trade-swings.
-
----
-
-### 🛑 Crouching Rules
-* ❌ **NEVER crouch on bullet 1:** Low-ELO opponents aim at chest level; crouching pulls your head directly into their crosshair.
-* ❌ **NEVER crouch at >20m:** Freezes you in open space with zero cover access.
-* ❌ **NEVER crouch against multiple foes or in open space without cover:** Eliminates retreat mobility and guarantees an immediate trade; maintain lateral mobility (`A`/`D`) to isolate duels into separate 1v1s.
-* ✅ **ONLY crouch on bullets 3–4 (<10m):** Close-range committed spray to absorb recoil.
-* ✅ **Radiant Head-Dodge:** Crouch on bullet 2–3 against Tier-1 opponents to duck under their opening headshot burst.
-* ✅ **Poppin / Compound Swing Lock:** Commit crouch during wide lateral momentum to disrupt enemy horizontal tracking and vertical crosshair pre-aim simultaneously.
-
----
-
-### ⚙️ Settings & Hardware Diagnostics
-* **Shooting Error Graph $\rightarrow$ "Text & Graph":** Yellow = accurate deadzone. Blue = movement error penalty.
-* **Auto-Equip Prioritizes: Strongest & Don't Auto-Equip Melee: ON:** Prevents pulling knife after spike plants, defuses, weapon drops, or utility.
-* **Raw Input Buffer: ON:** Feeds mouse packets directly into engine ticks, bypassing Windows latency.
-* **NVIDIA Reflex: On + Boost:** Prevents GPU power-state downclocking inside smokes and utility.
-* **Sensitivity Baseline:** 200–260 eDPI sweet spot. Values >320 eDPI introduce micro-jitter under adrenaline.
-* **Mouse DPI (1600 DPI):** Reduces sensor reporting latency by ~1.0–1.5 ms over 400 DPI without firmware smoothing.
-* **Magnetic Keyboard Profile:** Actuation **0.2 mm** (`WASD` & `Ctrl`), Continuous Rapid Trigger **0.1 mm** (0.1 mm deadzone), Snap Tap / SOCD enabled strictly on **`A` & `D`** (last-input priority for instant lateral direction-swap deadzones).
-* **Enable HRTF: ON:** Generates 3D binaural spatial audio for precise vertical and front/back footstep localization (disable Windows virtual surround sound).
-
----
-
-### ⏱️ Daily Warmup & Routine Quick-Check (Pre-Match / Every 2–3 Hours)
-* **Decoupled Tracking (The Range: 5 min):** Sheriff equipped, track bot heads while continuously strafing, counter-strafing, and crouching without firing. Decouples aim tracking from panic trigger pulling.
-* **Eliminate 50/100 Bots (Deadzone Rhythm: 10 min):** Continuous `Strafe -> Deadzone -> 1-Tap -> Strafe` (Armor ON). Target >90% headshot accuracy with zero blue bars on the shooting error graph.
-* **20m Target Dummy Counter-Strafe Drill (5–10 min):** Head outside behind the main hall (overlooking the flying sky drones) to the Accuracy Target board. Select **20m** and spawn the **Target Dummy**. Continuously strafe `A`/`D` while keeping crosshair locked on the bot's head, counter-strafing to dead stops and firing 1-taps.
-* **Intentional Over-Flick Drill (5 min):** Intentionally flick 1–2 head widths past bot skulls at high speed $\rightarrow$ micro-pause $\rightarrow$ micro-correct horizontally onto skull $\rightarrow$ fire. Automates subconscious recovery reflexes.
-* **Deathmatch Hygiene (15 min):** Sound OFF or low music, Sheriff/Guardian only, Tab key unbound. Eliminates audio crutches and reinforces pure visual angle-slicing and pre-aim discipline.
-* **Aim Trainer Benchmarks (Voltaic Routine):** Static clicking (*VT Sixshot / 1w6ts*) for stopping power; Micro-adjustments (*Microshot Precision*) for jiggle duels; Dynamic vertical (*VT Popcorn*) for aerial mobility targets (Jett/Raze).
-
----
-
+<a id="engine-physics"></a>
 ## 1. Engine Physics & Fundamental Velocity Mechanics
 
 ### Deceleration & Friction Dynamics
@@ -139,6 +35,7 @@ A high-signal technical reference for movement mechanics, gunfight hygiene, cros
   * Tapping the opposite key (counter-strafing) halts velocity only **~10–20 ms faster** than pure release.
   * *Key Takeaway:* Pros still tap the opposite key primarily as a tactile timing cue to immediately reverse direction into a deadzone burst.
 
+<a id="velocity-threshold"></a>
 ### The 30% Velocity Threshold Rule
 All weapons maintain **100% standing accuracy (zero movement error)** whenever character velocity drops to **$\le$ 30% of maximum run speed**.
 
@@ -152,8 +49,10 @@ All weapons maintain **100% standing accuracy (zero movement error)** whenever c
 
 ---
 
+<a id="deadzoning-vs-counter-strafing"></a>
 ## 2. Deadzoning vs. Counter-Strafing
 
+<a id="reversal-deadzoning"></a>
 ### 1. Reversal Deadzoning (Direction-Swap)
 Used when oscillating laterally across cover or in open duels.
 
@@ -169,6 +68,7 @@ Holding A (-5.4 m/s) ---> Tap D ---> Apex (<1.62 m/s) ---> Holding D (+5.4 m/s)
   3. During the zero-crossing window (~130–150 ms) where speed drops below `1.62 m/s`, fire 1–2 bullets.
   4. Continue holding `D` to build speed in the opposite direction without standing still.
 
+<a id="stutter-deadzoning"></a>
 ### 2. Stutter Deadzoning (Same-Direction Brake)
 Used to chain multiple peeks in one direction (`D -> D -> D`) without bouncing back into the enemy's crosshair.
 
@@ -187,6 +87,7 @@ Sprint D (+5.4 m/s) -> Brake A (30-50ms) -> Apex (<1.62 m/s) -> Resume D
 
 ---
 
+<a id="inaccuracy-graph-verification"></a>
 ### Inaccuracy Graph Verification ("Yellow Bar" Test)
 1. Set **Settings $\rightarrow$ Video $\rightarrow$ Stats $\rightarrow$ Shooting Error $\rightarrow$ Text & Graph**.
 2. **Yellow Bar:** 100% standing accuracy (`0.00°` movement error). Deadzone timing was correct.
@@ -195,6 +96,7 @@ Sprint D (+5.4 m/s) -> Brake A (30-50ms) -> Apex (<1.62 m/s) -> Resume D
 
 ---
 
+<a id="anti-metronome-strafing"></a>
 ### Asymmetric & Anti-Metronome Strafing (`A -> D -> D -> D -> A`)
 * **The Metronome Trap:** Symmetrical left-right strafing (`A -> D -> A -> D`) allows enemies to simply hold their crosshair still at the center point and wait for your head to bounce back.
 * **Asymmetric Patterns:** Combine Reversal and Stutter deadzones (`A -> D -> D -> D -> A`). Double-tapping in the same direction breaks enemy timing prediction and causes them to pre-fire empty air.
@@ -204,16 +106,18 @@ Sprint D (+5.4 m/s) -> Brake A (30-50ms) -> Apex (<1.62 m/s) -> Resume D
   * **Sequence:**
     $$\text{Short Step Left (A)} \longrightarrow \text{Wide Slide Right (D)} \longrightarrow \text{Stutter Right (D)} \longrightarrow \text{Short Step Left (A)}$$
 
-*(See [Section 10](#10-hardware-sensitivity--in-game-settings) for Rapid Trigger switch optimization).*
+*(See [Section 10](#hardware-settings) for Rapid Trigger switch optimization).*
 
 ---
 
+<a id="pro-peeking-catalog"></a>
 ## 3. The Pro Peeking Catalog
 
 ### Universal Peeking Law: Distance from the Wall Enables Peeker's Advantage
 * **The Distance Rule:** Always position your model **as far away from the corner wall as terrain allows** before peeking.
 * **Why Distance is Mandatory for Peeker's Advantage:** Peeker's advantage (30–50 ms client-server network lead) is completely destroyed if you hug the wall. Hugging corners exposes your outer shoulder and gun barrel to the defender before your camera eye clears the obstacle (giving them *Perspective Advantage*). Peeking from maximum distance ensures your camera sees their body first, allowing peeker's advantage to fully take effect.
 
+<a id="shoulder-peek"></a>
 ### 1. The Shoulder Peek (Info Bait / Anti-Operator)
 * **Goal:** Bait an Operator or sniper shot without exposing your head hitbox.
 * **Execution:**
@@ -222,15 +126,18 @@ Sprint D (+5.4 m/s) -> Brake A (30-50ms) -> Apex (<1.62 m/s) -> Resume D
   3. Immediately counter-strafe back into cover.
   4. Complete the cycle in under **0.22 seconds** to eliminate footstep audio.
 
+<a id="prefire-jiggle"></a>
 ### 2. The Pre-Fire Jiggle Peek
 * **Goal:** Clear a known, high-probability contact point with an instant lethal burst.
 * **Execution:** Pre-aim through the wall onto the exact coordinate $\rightarrow$ step out with `A`/`D` $\rightarrow$ fire 1–2 bullets at the apex $\rightarrow$ snap back.
 * **Rule:** Never repeat identical cadence twice. Predictable jiggles get pre-fired.
 
+<a id="jump-peek"></a>
 ### 3. The Jump Peek (Parabolic S-Curve)
 * **Goal:** Safely gather visual info against snipers with zero landing audio.
 * **Execution:** Knife out (`6.75 m/s`) $\rightarrow$ run parallel with `W` $\rightarrow$ jump and tap `D` (or `A`) past the corner $\rightarrow$ whip back at apex with `S + A` (or `S + D`) $\rightarrow$ land behind cover. Baits the sniper's **1.50-second bolt rechamber delay**.
 
+<a id="swing-variations"></a>
 ### 4. Swing Variations Comparison
 
 | Peeking Technique | Input Sequence | Speed & Geometry | Tactical Purpose |
@@ -239,6 +146,7 @@ Sprint D (+5.4 m/s) -> Brake A (30-50ms) -> Apex (<1.62 m/s) -> Resume D
 | **Wide Swing** | Run 1.5–2 character widths past standard pre-aim point | Constant `5.40 m/s` momentum into open space | Punishes tight crosshair placement by forcing a wide tracking flick. |
 | **Poppin Swing** | Wide running swing $\rightarrow$ sudden crouch lock | Full sprint wide $\rightarrow$ instant `Ctrl` lock | Forces two-axis error: enemy must track horizontal speed, then pull down vertically against weapon bloom. |
 
+<a id="slicing-the-pie"></a>
 ### 5. Slicing the Pie & Through-the-Wall Pre-Aim
 * **Concentric Angle Isolation:** Clear unknown 90° corners in **5°–10° isolated wedges** using micro-strafes from maximum distance from the wall.
 * **Through-the-Wall Pre-Aiming (Zero-Adjustment Click-Timing):**
@@ -249,6 +157,7 @@ Sprint D (+5.4 m/s) -> Brake A (30-50ms) -> Apex (<1.62 m/s) -> Resume D
 
 ---
 
+<a id="perspective-advantage"></a>
 ## 4. Perspective Advantage & Geometry
 
 ### Euclidean Distance Law
@@ -269,11 +178,13 @@ The player positioned **farther from the corner** sees the opponent first.
 * **Why Distance Enables Peeker's Advantage:** Peeker's advantage (30–50 ms client-server network lead) is completely negated if the defender sees your shoulder before you have vision. Peeking from maximum distance gives you geometric perspective advantage, allowing your peeker's advantage to fully take effect.
 * **Rule:** Always maximize distance from the corner wall when peeking or holding angles.
 
+<a id="diagonal-penalty"></a>
 ### Diagonal Peeking Penalty (Holding W+D / W+A)
 * Approaching corners with `W + D` or `W + A` directs velocity vectors forward toward the enemy.
 * Lateral angular velocity drops significantly on the defender's screen, making you appear to walk slowly forward in a straight line.
 * **Rule:** Approach perpendicular to the corner and swing with **pure lateral inputs (`A` or `D` only)**.
 
+<a id="depth-shifting"></a>
 ### Depth-Shifting on Re-Peeks
 * **The Problem:** Re-peeking from the identical spot lets defenders pre-fire your exact head pixel.
 * **The Fix:** Step **1–2 paces closer or farther** behind cover before peeking again:
@@ -283,8 +194,10 @@ The player positioned **farther from the corner** sees the opponent first.
 
 ---
 
+<a id="crosshair-placement"></a>
 ## 5. Crosshair Placement & Pre-Aim Discipline
 
+<a id="map-rulers"></a>
 ### Built-In Map Rulers for Head Height
 * **Single Radianite Crate:** Top horizontal edge marks standing head height on level ground.
 * **Stacked Crates:** Horizontal groove between crates marks exact head height.
@@ -294,6 +207,7 @@ The player positioned **farther from the corner** sees the opponent first.
 
 ---
 
+<a id="holding-depth"></a>
 ### Holding Depth Spectrum (Tight vs. Mid-Hold vs. Extra-Wide)
 
 ```
@@ -312,6 +226,7 @@ Op / Shift-Walk     Pro Default (1-1.5 Chars)        Ego-swings / Mobility
 
 ---
 
+<a id="wasd-aiming"></a>
 ### Aiming with Movement (WASD Placement vs. Mouse Flicking)
 
 ```
@@ -328,12 +243,14 @@ Pro WASD Aim:  Pre-aim wall   -> Strafe onto head -> Sub-20px micro-adjust
 
 ---
 
+<a id="anticipation-vs-passive"></a>
 ### Anticipation vs. Passive Checking
 * **Passive Checking Trap:** Checking angles hoping nobody is there causes surprise lag (~100 ms) and flinching, stretching reaction time to ~250–300 ms.
 * **Proactive Expectation:** Approach every corner anticipating an enemy pre-aimed at your head. Pre-visualizing the target cuts cognitive recognition latency, dropping reaction time to **~150–180 ms** and eliminating startle flinches.
 
 ---
 
+<a id="enemy-pattern-recognition"></a>
 ### Tactical Pattern Recognition: Reading & Exploiting Enemy Habits
 Crosshair placement, angle holding, and map positioning must adapt dynamically to the opponent's round-to-round macro patterns:
 
@@ -374,6 +291,17 @@ Crosshair placement, angle holding, and map positioning must adapt dynamically t
 
 ---
 
+<a id="crosshair-architecture"></a>
+### Crosshair Architecture: Beast's Double Edge Compendium
+A player's crosshair must match their aiming biomechanics. Rather than choosing between a pure dot (pinpoint 1-taps but no spray horizon) and standard crosshairs (spray containment but pixel occlusion at 30m+), pro mechanics leverage a **Dual-Focal Architecture**.
+
+👉 **[Read the Full Crosshair Compendium & Visual Previews in CROSSHAIRS.md](CROSSHAIRS.md)**
+* **[Beast's Double Edge (V1 — Cyan)](CROSSHAIRS.md#beasts-double-edge-v1-cyan):** Micro-cross center box + tight peripheral spray cage (Phantom / rapid burst focus).
+* **[Beast's Double Edge 2 (V2 — Red)](CROSSHAIRS.md#beasts-double-edge-v2-red):** Solid center bead + wide ghosted leveling bracket (Vandal / 1-tap precision focus).
+
+---
+
+<a id="gunfight-hygiene"></a>
 ## 6. Gunfight Hygiene & Firing Discipline
 
 ### Fire Modes & Engagement Distances
@@ -384,6 +312,7 @@ Crosshair placement, angle holding, and map positioning must adapt dynamically t
    (Phantom only)     (Vandal / Phantom)   (Deadzone Strafe)  (Recoil reset)
 ```
 
+<a id="recoil-synchronization"></a>
 ### 2-Shot Burst Cadence & Recoil Synchronization
 * **Cadence:** `Fire 2 bullets -> Strafe 2 paces (300-375 ms) -> Deadzone -> Fire 2 bullets`.
 * **Recoil Cooldowns:**
@@ -391,12 +320,14 @@ Crosshair placement, angle holding, and map positioning must adapt dynamically t
   * Phantom reset: **350 ms**.
   * A 2-pace lateral strafe takes ~350–380 ms. Strafing between bursts naturally absorbs the weapon recoil cooldown.
 
+<a id="spray-commit-rules"></a>
 ### Spray Commit Rules
 * **Vandal Cutoff (3–4 Bullets Max):** Beyond bullet 4, horizontal spread becomes randomized bloom. If bullets 1–2 miss, disengage, strafe 2 steps to reset recoil, and re-engage. Never pull down and spray past bullet 4 at >12m.
 * **Phantom Exceptions (<15m):** Sprays up to 5–6 bullets are viable at close range due to higher fire rate (11 rounds/s) and tighter initial spread. Suppressed tracers also make Phantom ideal for spamming smokes.
 
 ---
 
+<a id="micro-adjustments-biomechanics"></a>
 ## 7. Micro-Adjustments & Biomechanics
 
 ### Anatomical Role Division
@@ -404,10 +335,12 @@ Crosshair placement, angle holding, and map positioning must adapt dynamically t
 * **Wrist (Carpal Joint):** Micro-adjustments. Horizontal corrections within a 50–150 pixel radius.
 * **Fingertips (Grip Manipulation):** Recoil compensation. Pulling down on bullets 2–3 of a burst without disturbing horizontal wrist alignment.
 
+<a id="under-aiming"></a>
 ### Under-Aiming vs. Over-Aiming
 * **Over-Aiming Penalty:** Flicking past a target requires muscular braking and firing antagonistic muscles to reverse direction, wasting **100–150 ms**.
 * **Under-Aiming (85%–90% Flick):** Flicking slightly short allows completion via a single unidirectional micro-snap or lets target movement walk into the crosshair.
 
+<a id="keyboard-micro-adjustments"></a>
 ### Keyboard Micro-Adjustments (Anti-Overflick Technique)
 * **The Mouse Overflick Risk:** When an enemy is standing slightly off your pre-aim (10–30px away), micro-flicking with the mouse under match adrenaline frequently leads to **over-flicking past the skull, tendon tension, or jittery corrections**.
 * **The Keyboard Solution (The "Micro-Step" Alignment):**
@@ -415,6 +348,7 @@ Crosshair placement, angle holding, and map positioning must adapt dynamically t
   * **Why it works:** Keyboard switches provide binary, digital actuation with fixed physical key travel, completely removing analog mouse sensor error, jitter, and overshooting.
   * Once the micro-step brings the reticle over the skull, deadzone and click for an instant kill.
 
+<a id="pre-peek-wrist-reset"></a>
 ### Pre-Peek Wrist Reset & Mouse Centering
 * Turning corners and checking flanks causes the mouse to drift toward the pad edges, leaving the wrist cocked in lateral deviation.
 * A bent wrist locks carpal tendons, eliminating micro-adjustment range and inducing jittery aim.
@@ -422,6 +356,7 @@ Crosshair placement, angle holding, and map positioning must adapt dynamically t
 
 ---
 
+<a id="crouching-rules"></a>
 ## 8. Crouching: Pro Rules vs. Low-ELO Suicides
 
 | Low-to-Mid ELO Mistake | Radiant / Pro Discipline |
@@ -443,18 +378,22 @@ Crosshair placement, angle holding, and map positioning must adapt dynamically t
 
 ---
 
+<a id="advanced-elevation-tech"></a>
 ## 9. Advanced Elevation & Movement Tech
 
+<a id="silent-box-mount"></a>
 ### Silent Crouch Jump (Crate Mounting)
 1. Hold `Ctrl` (crouch) while walking toward the box.
 2. Press `Space` (jump) while holding `Ctrl`.
 3. Release `Ctrl` (uncrouch) at the exact apex of the jump as feet clear the box lip.
 4. Mounts standard Radianite crates on Ascent, Haven, Bind, and Split with zero landing audio.
 
+<a id="silent-edge-drops"></a>
 ### Silent Edge Drops
 * **Crouch-Drop:** Tap `Ctrl` immediately before sliding off an edge. Shortens vertical fall distance by ~35–40 cm, staying below the audible impact velocity threshold.
 * **Wall Collision Drag:** Scraping against angled walls or crates during falls decelerates downward velocity below the audio trigger.
 
+<a id="rope-discipline"></a>
 ### Rope & Ascender Discipline
 * **Accuracy Penalty:** Rifles on ropes incur **1.3 base spread**; shotguns incur running spread (3.0). Never take long-range duels on ropes.
 * **Silent Latch:** Approach the ascender, cancel horizontal momentum, hold `Shift`, and press `F` (use) to eliminate the metallic attachment audio.
@@ -462,8 +401,10 @@ Crosshair placement, angle holding, and map positioning must adapt dynamically t
 
 ---
 
+<a id="hardware-settings"></a>
 ## 10. Hardware, Sensitivity & In-Game Settings
 
+<a id="sensitivity-tiers"></a>
 ### Sensitivity Tiers & eDPI Distribution
 $$\text{eDPI} = \text{Mouse DPI} \times \text{In-Game Sensitivity}$$
 
@@ -478,6 +419,7 @@ $$\text{eDPI} = \text{Mouse DPI} \times \text{In-Game Sensitivity}$$
 
 ---
 
+<a id="magnetic-keyboard-profile"></a>
 ### Magnetic Keyboard Configuration (Hall Effect / Rapid Trigger / Snap Tap)
 
 Magnetic (Hall Effect) keyboards eliminate mechanical switch debounce latency, allowing physical finger movement to map directly to character deceleration.
@@ -506,6 +448,7 @@ Magnetic (Hall Effect) keyboards eliminate mechanical switch debounce latency, a
 
 ---
 
+<a id="critical-in-game-settings"></a>
 ### Critical In-Game Settings
 
 | Setting | Optimal Configuration | Technical Reason |
@@ -519,6 +462,7 @@ Magnetic (Hall Effect) keyboards eliminate mechanical switch debounce latency, a
 
 ---
 
+<a id="warmup-regimen"></a>
 ## 11. Daily Pro Warmup & Aim Training Regimen
 
 ### 1. Decoupled Tracking Drill (The Range: 5–10 Minutes)
@@ -565,6 +509,7 @@ Magnetic (Hall Effect) keyboards eliminate mechanical switch debounce latency, a
 
 ---
 
+<a id="habits-matrix"></a>
 ## 12. Common Bad Habits vs. Pro Habits Matrix
 
 | Mechanic | Low-to-Mid ELO Habit | Tier-1 Pro / Radiant Standard |
